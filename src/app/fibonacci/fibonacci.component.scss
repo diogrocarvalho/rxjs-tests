@@ -1,0 +1,9 @@
+.lists-holder{
+  display: flex;
+  div {
+    margin-right: 10px;
+    ul{
+      list-style: none;
+    }
+  }
+}

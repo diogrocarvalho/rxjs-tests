@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .button-holder {
+    display: flex;
+    justify-content: center;
+    button{
+      flex-basis: 20%;
+    }
+  }
+}
+
+h1{
+  margin-left: 15px;
+}
