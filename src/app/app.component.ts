@@ -17,13 +17,18 @@ export class AppComponent {
     this.router.navigate([url]);
   }
 
-  public gotoSubject(){
+  public gotoSubject() {
     const url = 'subject';
     this.router.navigate([url]);
   }
 
-  public gotoReplaySubject(){
+  public gotoReplaySubject() {
     const url = 'replay-subject';
+    this.router.navigate([url]);
+  }
+
+  public gotoOperators() {
+    const url = 'operators';
     this.router.navigate([url]);
   }
 }

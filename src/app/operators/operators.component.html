@@ -1,0 +1,26 @@
+<div class="lists-holder">
+  <div>
+    (Original)
+    <ul>
+      <li *ngFor="let value of values">{{value}}</li>
+    </ul>
+  </div>
+  <div>
+    (map)
+    <ul>
+      <li *ngFor="let value of doubles">{{value}}</li>
+    </ul>
+  </div>
+  <div>
+    (filter)
+    <ul>
+      <li *ngFor="let value of filtered">{{value}}</li>
+    </ul>
+  </div>
+  <div>
+    (pipe)
+    <ul>
+      <li *ngFor="let value of pipedValues">{{value}}</li>
+    </ul>
+  </div>
+</div>

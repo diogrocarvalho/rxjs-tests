@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ObservableComponent } from './observable/observable.component';
 import { SubjectComponent } from './subject/subject.component';
 import { ReplaySubjectComponent } from './replay-subject/replay-subject.component';
+import { OperatorsComponent } from './operators/operators.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ObservableComponent,
     SubjectComponent,
-    ReplaySubjectComponent
+    ReplaySubjectComponent,
+    OperatorsComponent
   ],
   imports: [
     BrowserModule,
