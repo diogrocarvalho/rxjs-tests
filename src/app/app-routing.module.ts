@@ -1,9 +1,15 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {FibonacciComponent} from './fibonacci/fibonacci.component';
+import {ObservableComponent} from './observable/observable.component';
+import {ReplaySubjectComponent} from './replay-subject/replay-subject.component';
+import {SubjectComponent} from './subject/subject.component';
 
 
-const routes: Routes = [{path: 'fibonacci', component: FibonacciComponent}];
+const routes: Routes = [
+  {path: 'observable', component: ObservableComponent},
+  {path: 'subject', component: SubjectComponent},
+  {path: 'replay-subject', component: ReplaySubjectComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

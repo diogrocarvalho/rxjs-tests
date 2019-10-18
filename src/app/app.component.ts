@@ -7,13 +7,23 @@ import {Router} from '@angular/router';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Hello World';
+  title = 'RxJS Samples';
 
   constructor(private router: Router) {
   }
 
   public gotoFibonacci() {
-    const url = 'fibonacci';
+    const url = 'observable';
+    this.router.navigate([url]);
+  }
+
+  public gotoSubject(){
+    const url = 'subject';
+    this.router.navigate([url]);
+  }
+
+  public gotoReplaySubject(){
+    const url = 'replay-subject';
     this.router.navigate([url]);
   }
 }

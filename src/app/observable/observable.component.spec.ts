@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FibonacciComponent } from './fibonacci.component';
+import { ObservableComponent } from './observable.component';
 
-describe('FibonacciComponent', () => {
-  let component: FibonacciComponent;
-  let fixture: ComponentFixture<FibonacciComponent>;
+describe('ObservableComponent', () => {
+  let component: ObservableComponent;
+  let fixture: ComponentFixture<ObservableComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FibonacciComponent ]
+      declarations: [ ObservableComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FibonacciComponent);
+    fixture = TestBed.createComponent(ObservableComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -3,12 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FibonacciComponent } from './fibonacci/fibonacci.component';
+import { ObservableComponent } from './observable/observable.component';
+import { SubjectComponent } from './subject/subject.component';
+import { ReplaySubjectComponent } from './replay-subject/replay-subject.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FibonacciComponent
+    ObservableComponent,
+    SubjectComponent,
+    ReplaySubjectComponent
   ],
   imports: [
     BrowserModule,
